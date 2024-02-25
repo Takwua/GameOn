@@ -1,13 +1,13 @@
-# GameOn Landing Page
+# Page d'Accueil GameOn
 
-## Overview
+## Aperçu
 
-Welcome to the GameOn landing page project! This repository contains the code for the GameOn website's landing page and registration form. The landing page is designed for a gaming conference and competition company, GameOn.
+Bienvenue dans le projet de la page d'accueil GameOn ! Ce dépôt contient le code pour la page d'accueil du site web de GameOn, ainsi que le formulaire d'inscription. La page d'accueil est conçue pour une entreprise de conférences et de compétitions de jeux, GameOn.
 
-## Tasks
+## Tâches
 
-- [ ] Implement missing JavaScript functionality for the registration form.
-- [ ] Review and address any open issues in the GitHub repository.
-- [ ] Ensure that the form functions correctly, handles user inputs, and provides a responsive user experience.
+- [ ] Implémenter les fonctionnalités JavaScript manquantes pour le formulaire d'inscription.
+- [ ] Examiner et traiter les problèmes ouverts dans le dépôt GitHub.
+- [ ] S'assurer que le formulaire fonctionne correctement, gère les saisies des utilisateurs et offre une expérience utilisateur réactive.s
 
       
