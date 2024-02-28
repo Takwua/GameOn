@@ -57,29 +57,29 @@
           <form name="reserve" action="index.html" method="get" onsubmit="return validate();">
             <div class="formData">
               <label>Prénom</label><br>
-              <input class="text-control" type="text" id="first" name="first" minlength="2"><br>
-              <div id="firstNameError" class="error-message">Saisissez votre prénom</div>
+              <input class="text-control" type="text" id="first" name="first"><br>
+              <div id="firstNameError" class="error-message">Veuillez saisir votre prénom (2 caractères minimum).</div>
             </div>
             <div class="formData">
               <label>Nom</label><br>
               <input class="text-control" type="text" id="last" name="last"><br>
-              <div id="lastNameError" class="error-message">Saisissez votre nom de famille</div>
+              <div id="lastNameError" class="error-message">Veuillez saisir votre nom (2 caractères minimum).</div>
             </div>
             <div class="formData">
               <label>E-mail</label><br>
-              <input class="text-control" type="email" id="email" name="email"><br>
-              <div id="emailError" class="error-message">Saisissez une adresse mail valide</div>
+              <input class="text-control" type="text" id="email" name="email"><br>
+              <div id="emailError" class="error-message">Veuillez saisir un email valide.</div>
             </div>
             <div class="formData">
               <label>Date de naissance</label><br>
               <input class="text-control" type="date" id="birthdate" name="birthdate"><br>
-              <div id="birthdateError" class="error-message">Saisissez une date de naissance valide</div>
+              <div id="birthdateError" class="error-message">Veuillez saisir un anniversaire valide.</div>
             </div>
             <div class="formData">
               <label>À combien de tournois GameOn avez-vous déjà participé ?</label><br>
               <input type="number" class="text-control" id="quantity" name="quantity" min="0" max="99">
             </div>
-            <div id="quantityError" class="error-message">Sélectionnez une option</div>
+            <div id="quantityError" class="error-message">Veuillez sélectionner une option.</div>
             <p class="text-label">A quel tournoi souhaitez-vous participer cette année ?</p>
             <div class="formData">
               <input class="checkbox-input" type="radio" id="location1" name="location" value="New York">
@@ -107,7 +107,7 @@
                 <span class="checkbox-icon"></span>
                 Portland</label>
               <div id="locationError" class="error-message">
-                Sélectionnez un événement
+                Veuillez sélectionner un événement.
               </div>
             </div>
 
